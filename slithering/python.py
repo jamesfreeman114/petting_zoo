@@ -8,3 +8,6 @@ class Python:
         self.slithering = True
         self.date_added = date.today()
     
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
+    
